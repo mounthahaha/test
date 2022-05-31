@@ -1,0 +1,124 @@
+.profileWrap {
+  display: flex;
+  text-align: center;
+  .right {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .left {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      margin-bottom: 20px;
+      width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      position: relative;
+      div {
+        margin-top: 10px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .tops {
+      text-align: left;
+      font-size: 12px;
+      .vipInfo {
+        display: flex;        
+        align-items: center;
+        color: #6e7da9;
+        margin-bottom: 20px;
+        .leavNum {
+          font-size: 22px;
+          text-align: left;
+          font-weight: 600;
+          color: #000;
+          margin-bottom: 5px;
+        }
+        img {
+          width: 100px;
+        }
+      }
+      .processCont {
+        margin: 0;
+        padding: 0;
+        div {
+          margin: 0;
+        }
+        .levelBox {
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          margin-top: 50px;
+        }
+        .actSpan {
+          background: url("~@/assets/userCenter/vipleav.png") no-repeat 50% / contain;
+          margin-top: -22px;
+          padding: 6px 0 0 2px;
+          width: 30px;
+          height: 35px;
+          color: #fff;
+        }
+      }
+      .nextLeave {
+        padding-top: 15px;
+        color: #6e7da9;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+    }
+    .zx {
+      margin-top: 0;
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 60px;
+      }
+      .num {
+        font-size: 18px;
+        margin-bottom: 7px;
+        margin-top: 10px;
+        color: #000;
+        line-height: 27px;
+        text-align: center;
+      }
+      .cont {
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #656565;
+      }
+    }
+    .btnBox {
+      font-size: 14px;
+      color: #656565;
+      text-align: center;
+      .btn {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 180px;
+        background: linear-gradient(90deg, #00ad49, #6cdb8b);
+        padding: 7px 15px;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+  .title {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .info {
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+  }
+}

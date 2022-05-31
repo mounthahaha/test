@@ -1,0 +1,148 @@
+export default [  
+  {
+    title: '体育',
+    name: 'sports',
+    expanded: false,
+    items: [
+      {
+        image: require('@/assets/login-bar/sport/cs.png'),
+        icon: require('@/assets/login-bar/sport/icon-cs.png'),
+        title: '冠军体育',
+        alias: 'cs',
+        sub: 'sports',
+        to: '/play/30n4hvJ4MGjhfY',
+        expanded: false,
+        text: '最全精彩赛事，多元竞猜玩法，市场最优赔率，注单秒接体验，高清直播让您如临现场，全程精彩不容错失，致力成为玩家最喜爱的专业体育平台。',
+      },
+      {
+        image: require('@/assets/login-bar/sport/ob.png'),
+        icon: require('@/assets/login-bar/sport/icon-ob.png'),
+        title: 'OB体育',
+        alias: 'ob',
+        sub: 'sports',
+        to: '/play/OBiloveyou',
+        expanded: false,
+        text: 'OB体育平台 带你走进体育的世界，足球,篮球,nba等球类运动项目为主的专业',
+      },
+      // {
+      //   image: require('@/assets/login-bar/sport/im.png'),
+      //   icon: require('@/assets/login-bar/sport/icon-im.png'),
+      //   title: 'IM体育',
+      //   alias: 'im',
+      //   sub: 'sports',
+      //   to: '/play/IM9k5RBN',
+      //   expanded: false,
+      //   text: '最多投注类型，最强投注体验，支持提前兑现，收米也要快人一步，想你所想，投你所爱。',
+      // },
+    ],
+  },
+  {
+    title: '真人',
+    name: 'live-casino',
+    expanded: false,
+    items: [
+      {
+        image: require('@/assets/login-bar/live/ag.png'),
+        icon: require('@/assets/login-bar/live/icon-ag.png'),
+        title: 'AG真人',
+        alias: 'ag',
+        sub: 'live',
+        to: '/play/462972661606191343',
+        expanded: false,
+        text:
+          '以高规格打造的AG真人配备最先进的设备以及富丽堂皇的装潢，为玩家打造绝佳真人视讯游戏体验。游戏选择多样化，包括备受欢迎的百家乐、骰宝、轮盘等，加上全天侯监控管理，为玩家提供稳定而流畅的游戏服务。',
+      },
+    ],
+  },
+  {
+    title: '电竞',
+    name: 'esports',
+    expanded: false,
+    items: [
+      {
+        image: require('@/assets/login-bar/esport/im.png'),
+        icon: require('@/assets/login-bar/esport/icon-im.png'),
+        title: 'IM电竞',
+        alias: 'im',
+        sub: 'E-SPORT',
+        to: '/play/IMnq8G3W',
+        expanded: false,
+        text:
+          'IM电子竞技是由一群资深专业的电子竞技玩家研发的电竞竞猜平台。不但有顶尖的技术支持，还拥有令人惊叹的视觉界面及高效的用户体验。所以IM电竞竞猜平台能让您轻松上手，一目了然，轻松投注。',
+      },
+    ],
+  },
+  {
+    title: '彩票',
+    name: 'lottery',
+    expanded: false,
+    items: [
+      // {
+      //   image: require('@/assets/login-bar/lottery/1.png'),
+      //   icon: require('@/assets/login-bar/lottery/icon-1.png'),
+      //   title: '全民竞猜',
+      //   alias: 'cm',
+      //   sub: 'lottery',
+      //   to: '/play/BxkZVPiJb63a',
+      //   expanded: false,
+      //   text: '一支极其富有创造力的科技型队伍， 拥有丰富的游戏开发经验，敏锐的市场嗅觉以及时尚的设计理念，打造独创卡片式切换，让您永不下错期！',
+      // },
+      {
+        image: require('@/assets/login-bar/lottery/2.png'),
+        icon: require('@/assets/login-bar/lottery/icon-2.png'),
+        title: 'TCG彩票',
+        alias: 'tcg',
+        sub: 'lottery',
+        to: '/play/TCGno87care',
+        expanded: false,
+        text:
+          '业界首创区块链彩票，汲取区块链的核心技术算法，只为公平、公正的开奖结果。多地域的官方时时彩、11选5、PK10、PC蛋蛋和官方六合彩，足不出户却能无时无刻的尽情游玩！',
+      },
+    ],
+  },
+  {
+    title: '电子',
+    name: 'slot',
+    expanded: false,
+    items: [
+      {
+        image: require('@/assets/login-bar/slot/mg.png'),
+        icon: require('@/assets/login-bar/slot/icon-mg.png'),
+        title: 'MG电子',
+        alias: 'mg',
+        sub: 'slot',
+        to: '/slotLobby',
+        expanded: false,
+        text: '提供老虎机,体育,真人娱乐城,彩票,赛马等百种线上刺激游戏',
+      },
+      {
+        image: require('@/assets/login-bar/slot/ag.png'),
+        icon: require('@/assets/login-bar/slot/icon-ag.png'),
+        title: 'AG捕鱼',
+        alias: 'ag',
+        sub: 'slot',
+        to: '/play/tfxC0CZVbkhe',
+        expanded: false,
+        text:
+          '游戏操作简单玩法丰富，多人捕鱼场景，增添了游戏的互动性，绚烂刺激的捕捉画面，超爽快的疯狂射击体验。同时在线玩家数以万计，还可依照倍率选择关卡入场，倍率愈高赢得更高的奖励。',
+      },
+    ],
+  },
+  {
+    title: '棋牌',
+    name: 'board-game',
+    expanded: false,
+    items: [
+      {
+        image: require('@/assets/login-bar/board-game/ky.png'),
+        icon: require('@/assets/login-bar/board-game/icon-ky.png'),
+        title: '开元棋牌',
+        alias: 'ky',
+        sub: 'slot',
+        to: '/play/BgFcIROExgMd',
+        expanded: false,
+        text: '以「庄家」为主的游戏类型，主打「玩家间对战」，玩家依照自身技术进入不同等级的游戏房间切磋牌技',
+      },
+    ],
+  },
+];

@@ -1,0 +1,243 @@
+.wallentConV {
+  margin: 0px auto 5px auto;
+  display: flex;
+  justify-content: flex-start;
+
+  .wallentMes {
+    background-color: #fff;
+    width: 680px;
+    border-radius: 2px;
+    padding: 20px;
+    .wallentTitle {
+      text-align: left;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    .wallentNum {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      justify-content: space-between;
+      width: 475px;
+      .wallentSun {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .refreshBtnV {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 84px;        
+        line-height: 36px;
+        font-weight: 500;
+        justify-content: center;
+        &:hover {
+          background-color: rgba(77, 153, 116, 0.08);
+        }
+        .refreshTitle {          
+          font-size: 14px;
+          color: #4d9974;
+        }
+        .refreshImgV {
+          .refreshImg {
+            width: 15px;
+            height: 15px;
+          }
+        }
+      }
+    }
+    .mainWallentV {
+      display: flex;
+      flex-direction: row;
+      .mainWallentConV {
+        width: 475px;
+        border: 2px solid #f5f5f5;
+        padding: 0 30px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .recoveryBtn {
+          width: 80px;
+          line-height: 36px;
+          color: #4d9974;
+          position: absolute;
+          text-align: center;
+          top: 0;
+          font-weight: 500;
+          right: 10px;
+          cursor: pointer;
+          border-radius: 4px;
+          &:hover {
+            background-color: rgba(77, 153, 116, 0.08);
+          }
+        }
+        .mainWallentBgV {
+          display: flex;
+          flex-direction: row;          
+          flex-grow: 1;
+          .mainWallent {
+            width: 50%;
+            font-size: 14px;
+            text-align: left;
+            .mtag {
+              color: #fa0;
+              margin-left: 10px;
+              text-align: left;
+            }
+            .mNum {
+              font-size: 20px;
+              color: #fa0;
+            }
+          }
+          .lines {
+            margin-top: 5px;
+            background-color: #333;
+            width: 1px;
+            height: 24px;
+            margin-right: 20px;
+          }
+          .activeWallentV {
+            width: 50%;
+            font-size: 14px;
+            text-align: left;
+            .mtag {
+              color: #fa0;
+              margin-left: 10px;
+              text-align: left;
+            }
+            .mNum {
+              font-size: 20px;
+              color: #fa0;
+            }
+          }
+        }
+      }
+      .ctkV {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 145px;
+        height: 100px;
+        flex-direction: row;
+        margin-left: 20px;
+        padding: 20px;
+        border: 2px solid #f5f5f5;
+        .ckV {
+          cursor: pointer;
+          .ckImgV {
+            .ckImg {
+              width: 32px;
+              height: 32px;
+            }
+          }
+          .ckTitle {
+            margin-top: 5px;
+            font-size: 14px;
+          }
+        }
+        .tkV {
+          cursor: pointer;
+          .tkImgV {
+            .tkImg {
+              width: 36px;
+              height: 36px;
+            }
+          }
+          .tkTitle {
+            line-height: 20px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .wallDetailV {
+      margin-top: 60px;
+      border-bottom: 2px solid #f5f5f5;
+      .wallDetailTitle {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .wallbgV {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        .wallNumV {
+          width: calc(25% - 15px);
+          height: 100px;
+          border: 2px solid #f5f5f5;
+          margin-bottom: 20px;
+          margin-right: 15px;
+          // padding: 20px;
+          .wallNumber {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            .mtag {
+              color: #fa0;
+              margin-right: 2px;
+              text-align: left;
+            }
+            .mNum {
+              font-size: 20px;
+              color: #fa0;
+            }
+          }
+        }
+        .wallGameV {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 145px;
+          height: 100px;
+          border: 2px solid #f5f5f5;
+          .wallGameTitle {
+          }
+          .wallNum {
+            .mtag {
+              color: #fa0;
+              margin-left: 10px;
+            }
+            .mNum {
+              font-size: 20px;
+              color: #fa0;
+            }
+          }
+        }
+      }
+    }
+
+    .sunConV {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .wallSunNum {
+        text-align: center;
+        border: 2px solid #f5f5f5;
+        border-radius: 2px;
+        width: 310px;
+        line-height: 50px;
+        margin-top: 20px;
+        .mtags {
+          color: #fa0;
+          margin-right: 10px;
+          text-align: left;
+          font-size: 12px;
+        }
+        .mNum {
+          font-size: 20px;
+          color: #fa0;
+        }
+      }
+    }
+  }
+}

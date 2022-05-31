@@ -1,0 +1,21 @@
+.promotionWrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 50px 8%;
+    .itemBgV {
+        width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .itemImgV {
+            margin: 10px;
+            width: 48%;
+            .itemImg {
+                width: 100%;
+                // height: 680px;
+            }
+        }
+    }
+}

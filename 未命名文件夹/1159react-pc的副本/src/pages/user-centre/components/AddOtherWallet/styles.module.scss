@@ -1,0 +1,76 @@
+.addCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  z-index: 3;
+  text-align: left;
+  top:0;
+  animation-name: example;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  .addbtn {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .tips{
+      font-size: 12px;
+      color: rgba(0,0,0,0.3);
+      white-space:nowrap;
+  }
+  .submits{
+    background-image: linear-gradient(180deg,#28c069,#7fdc99 99%);
+    border-width: 0;
+    min-width: 320px;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px;
+  }
+  .uploads{
+    min-height: 160px;
+    box-shadow: 0 0 0 2px hsl(0deg 0% 40% / 30%);
+    border: 2px solid rgb(101,101,101);
+    border-radius: 4px;
+    min-width: 64px;
+    padding: 0 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: all .28s;
+    position: relative;
+    input {
+      width: 330px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      opacity: 0;
+    }
+    &:hover{
+      background-color: rgba(102, 102, 102, 0.082);
+    }
+    p{
+      width: 100%;
+      color:  rgb(101,101,101);
+      margin-top: 10px;
+    }
+    .defaultImg{
+      width: 40px;
+    }
+    .preImg{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 200px;
+    }
+  }
+}
+@keyframes example {
+  0%   {left:-800px; top:0px; opacity: 0;}
+  100% {left:0px; top:0px; opacity: 1;}
+}

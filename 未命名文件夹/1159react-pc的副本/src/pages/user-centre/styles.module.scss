@@ -1,0 +1,93 @@
+.userInfoCont{
+    background-color: #cecece;
+    padding: 60px 0 48px;
+    .content {
+        width: 1185px;
+        margin: 0 auto;        
+        display: flex;
+        p {
+            text-align: center;
+            margin: 0;
+            word-break:break-all;
+            text-align: left;
+        }
+        .left {
+            background:#fff;
+            border-radius: 2px;
+            width: 225px;
+            margin-right:20px;
+            .bgClass {
+                padding: 20px;
+                width: 100%;
+                .usrInfo{
+                    display: flex;
+                    align-items: center;
+                    .headImg{
+                        width: 60px;
+                        margin-right: 12px;
+                    }
+                    .attention{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        font-weight: bolder;
+                        .lc{
+                            width: 26px;
+                        }
+                    }
+                }
+                .cq{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: space-between;
+                    .ck{
+                        display: flex;
+                        cursor: pointer;
+                        align-items: center;
+                        img{
+                            width: 32px;
+                            margin-right: 4px;
+                        }
+                    }
+                }
+            }
+            .menus {
+                li {
+                    padding: 15px 0 15px 20px;
+                    line-height: 18px;
+                    font-size: 14px;
+                    color: #999;
+                    white-space: nowrap;
+                    text-align: left;
+                    cursor: pointer;
+                    display: flex;
+                    transition: all 0.2s;
+                    align-items: center;
+                    &:hover{
+                        background-color: #f6f8f7;
+                    }
+                    .zl{
+                        width: 25px!important;
+                        margin-right: 16px!important;
+                    }
+                    
+                }
+                .active {
+                    color: #333;
+                    background: rgb(246, 248, 247);;
+                }                
+            }
+            .joinDays {
+                font-size: 12px;
+                color: #656565;
+                text-align: center;
+                padding: 24px 0 28px;
+            }
+        }
+        .right {
+            max-width: 968px;
+            flex-grow: 1;
+        }
+    }
+}

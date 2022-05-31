@@ -1,0 +1,39 @@
+.errorWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6e7da9;
+    padding: 20px 0;
+    .wTitle {
+        font-weight: 300;
+        font-size: 55px;
+    }
+    .wDivisiondLine {
+        margin: 24px 0;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.12);
+        width: 357px;
+    }
+    .wDesc {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .wBtnBox {
+        .wBtn {
+            line-height: 44px;
+            display: inline-block;
+            color: #fff;
+            width: 357px;
+            border-radius: 4px;
+            text-align: center;
+            background-color: #4d9974;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+                background-color: #64a586;
+            }
+        }
+
+    }
+}

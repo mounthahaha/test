@@ -1,0 +1,21 @@
+// 修改常用组件样式
+
+.el-pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+// 改变Switch不活泼文字颜色
+.el-switch [aria-hidden="true"] {
+    color: #cccccc;
+}
+
+//确定删除按钮  
+.el-message-box {
+    .el-button--primary {
+        background-color: #f56c6c !important;
+        border: none;
+        &:hover {
+            background-color: #f56c6c !important;
+        }
+    }
+}

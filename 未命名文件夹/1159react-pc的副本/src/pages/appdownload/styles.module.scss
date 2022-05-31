@@ -1,0 +1,78 @@
+.cWrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 30px;
+    .section {
+        .homeCon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .homeImgV {
+                // width: 50%;
+                margin-right: 60px;
+                .homeImg {
+                    width: 678px;
+                    height: 602px;
+                }
+            }
+            .rightConV {
+                margin-bottom: 20px;
+                margin-right: 60px;
+                margin-top: 40px;
+                .title {
+                    font-size: 42px;
+                    font-weight: bold;
+                }
+                .detitle {
+                    font-size: 20px;
+                    color: #666;
+                    margin: 10px 0;
+                }
+                .qrImgV {
+                    margin: 20px 0;
+                    .qrImg {
+                        width: 220px;
+                        height: 220px;
+                    }
+                }
+                .btns {
+                    display: flex;
+                    flex-direction: row;
+                    .iosBtnV {
+                        margin-right: 5px;
+                        cursor:pointer;
+                        .iosBtn {
+                            width: 180px;
+                        }
+                    }
+                    .andBtnV {
+                        cursor:pointer;
+                        .andBtn {
+                            width: 180px;
+                        }
+                    }
+                }
+                .loadDesc {
+                    margin: 10px 0 20px 0;
+                    font-size: 15px;
+                }
+                .iosandV {
+                    display: flex;
+                    flex-direction: row;
+                    .iosImgV {
+                        margin-right: 5px;
+                        .iosImg {
+                            width: 180px;
+                        }
+                    }
+                    .andImgV {
+                        .andImg {
+                            width: 180px;
+                        }
+                    }
+                }
+            }                
+        }        
+    }
+}

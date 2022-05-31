@@ -1,0 +1,101 @@
+.WithDraw {
+    .title {
+        text-align: left;
+        font-family: PingFangTC-Regular;
+        font-size: 18px;
+        color: #000;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        li {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            line-height: 3;
+        }
+        .icons {
+            display: flex;
+            cursor: pointer;
+            .num {
+                font-size: 36px;
+                color: #333;
+                line-height: 36px;
+                margin-right: 5px;
+            }
+        }
+        .btns{
+            width: 80px;
+            height: 32px;
+            text-align: center;
+            line-height: 32px;
+            border: 1px solid #ff9903;
+            border-radius: 4px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #ff9903;
+            cursor: pointer;
+        }
+    }
+}
+.TopCard {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    padding: 20px!important;
+}
+.title {
+    text-align: left;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.remark {
+    text-align: left;
+    font-size: 14px!important;
+     margin: 20px 0 16px 0;
+
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBtn {
+    background: linear-gradient(90deg,#28c069,#7fdc99 99%)!important;
+    width: 100px;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    border-width: 2px;
+    color: #fff;
+    border-color: #7fdc99;
+    font-size: .875rem;
+}
+.detailBtn {
+    border-color: #4d9974;
+    border-radius: 4px;
+    color: #4d9974;
+}
+
+.sumDataBox {
+    display: flex;
+    flex-direction: row-reverse;
+    .sumData {
+        width:280px;
+        
+        p {
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px!important;
+            span {
+                color: #000;
+                font-weight: bold;
+            }
+        }
+    }
+}

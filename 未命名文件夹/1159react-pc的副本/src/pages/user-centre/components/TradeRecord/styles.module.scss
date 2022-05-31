@@ -1,0 +1,74 @@
+.Advice {
+    margin: 20px auto 5px auto;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, 32%);
+    grid-gap: 10px;
+}
+.TopCard {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    padding: 20px!important;
+}
+.title {
+    text-align: left;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.remark {
+    text-align: left;
+    font-size: 14px!important;
+     margin: 20px 0 16px 0;
+
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px
+}
+.searchBtn {
+    background: linear-gradient(90deg,#28c069,#7fdc99 99%)!important;
+    width: 100px;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    border-width: 2px;
+    color: #fff;
+    border-color: #7fdc99;
+    font-size: .875rem;
+}
+.Btn {
+    width: 100px;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    border-width: 2px;
+    font-size: .875rem;
+}
+.statusTd {
+    background-color: #ff9800!important;
+    border-color: #ff9800!important;
+    max-width: 100%;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 24px;
+    color: #fff;
+}
+.statusSpan {
+    background-color: rgb(77, 153, 116)!important;
+    border-color: rgb(77, 153, 116)!important;
+    max-width: 100%;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 24px;
+    color: #fff;
+}
+.detailBtn {
+    border-color: #4d9974;
+    border-radius: 4px;
+    color: #4d9974;
+}

@@ -1,0 +1,170 @@
+/**
+ element UI datepicker 改成vuetify樣式
+ */
+.el-date-editor-vuetify-text-field {
+  width: 100% !important;
+  .el-input__inner {
+    height: 48px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+  &.small {
+    height: 38px !important;
+    .el-input__inner {
+      height: 38px !important;
+    }
+  }
+}
+
+/*
+* 縮小 input 樣式  讓type number 不要有上下調整鈕
+*/
+.v-input {
+  &-number-box {
+    &--tiny {
+      .v-input {
+        &__slot {
+          padding-right: 0.25rem !important;
+          padding-left: 0.25rem !important;
+        }
+      }
+    }
+    .v-input {
+      &__slot {
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+        }
+        input[type='number'] {
+          -moz-appearance: textfield;
+        }
+      }
+    }
+  }
+}
+
+/*
+* 縮小 input 樣式  讓type number 不要有上下調整鈕
+*/
+.v-item-group {
+  &.v-btn-toggle:not(.v-btn-toggle--group),
+  &.v-btn-toggle {
+    &.v-btn-toggle--selected {
+      box-shadow: none;
+    }
+    &.blue-btn-group {
+      .v-btn {
+        &--active {
+          background-color: #2196f3 !important;
+          color: white;
+        }
+        &.v-btn--block {
+          width: 100% !important;
+        }
+      }
+    }
+    &.blue-border-btn-group {
+      .v-btn {
+        border: 2px solid rgba(0, 0, 0, 0.12) !important;
+        border-radius: 4px;
+        &--active {
+          border-color: #2196f3 !important;
+        }
+        &.v-btn--block {
+          width: 100% !important;
+        }
+      }
+      .v-btn.v-btn:not(:first-child) {
+        border-left-width: 1px;
+      }
+    }
+  }
+}
+/*
+* pagination 樣式
+*/
+.diy-page-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max100 {
+  max-width: 100%;
+}
+
+.diy-page {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+
+  .diy-page-select {
+    .v-input__slot {
+      width: 90px !important;
+    }
+  }
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.el-date-editor {
+  height: 48px;
+  border: 0;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  max-width: 100%;
+  .el-range-separator {
+    line-height: 43px;
+    width: 1.5em;
+    white-space: nowrap;
+  }
+}
+.tox-notifications-container,
+.tox-statusbar {
+  display: none !important;
+}
+/*
+* 移除 button focus 外誆  vuetify bug  頁數大  分頁左右兩邊有 ...  點選 focus 不會消掉
+*/
+.v-pagination {
+  button {
+    &:focus {
+      outline: -webkit-focus-ring-color auto 0px !important;
+    }
+  }
+}
+/*
+*  datatable 深色header 繼頭染白 header 須自行加入dark-header
+*/
+.v-data-table {
+  .dark-header {
+    .v-icon {
+      color: white !important;
+    }
+  }
+}
+/*
+* datatable 內容欠滯寬度並隱藏內文兩行
+*/
+.clamp-line {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.w-auto {
+  width: auto !important;
+}
+/*
+* alert icon 調整 margin
+*/
+.v-alert__icon {
+  margin: 0px 2px 0px 0px !important;
+  padding: 0px !important;
+}
+.v-alert__border{
+  border-width: 6px !important;
+}

@@ -1,0 +1,133 @@
+.rightMesV {
+    width: 240px;
+    margin-left: 20px;
+    .betRecort {
+      background-color: #fff;
+      padding: 20px;
+
+      .betTitleV {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .favourTitle {
+          font-size: 18px;
+        }
+        .favourMoreV {
+          display: flex;
+          cursor: pointer;          
+          font-weight: 500;
+          width: 60px;
+          text-align: center;
+          line-height: 36px;
+          border-radius: 4px;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            background-color: rgba(77, 153, 116, 0.08);
+          }
+          .favourMoreTitle {
+            font-size: 14px;
+            color: #4d9974;
+            line-height: 25px;
+          }
+          .favourNext {
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+      .recordV {
+        .recordItemV {
+          margin-top: 30px;
+          .recordTitle {
+            font-size: 18px;
+            text-align: left;
+            font-weight: bold;
+            color: #666;
+          }
+          .recordTime {
+            text-align: left;
+            font-size: 12px;
+          }
+          .recordMes {
+            text-align: left;
+            color: #4d9974;
+            font-size: 14px;
+            margin: 10px 0;
+          }
+          .recordProcess {
+            text-align: left;
+            .favourNext {
+              width: 14px;
+              height: 14px;
+            }
+          }
+          .recordCost {
+            text-align: left;
+            color: #4d9974;
+            margin-top: 5px;
+            .favourNext {
+              width: 14px;
+              height: 14px;
+            }
+          }
+        }
+      }
+
+      .moreV {
+        text-align: left;
+        margin-top: 30px;
+        .more {
+          width: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+    .activeGam {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      background-color: #fff;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      .activeBgV{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        .favourTitle {
+          font-size: 18px;
+        }
+        .favourMoreBox {
+          display: flex;
+          cursor: pointer;          
+          font-weight: 500;
+          width: 60px;
+          text-align: center;
+          line-height: 36px;
+          border-radius: 4px;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            background-color: rgba(77, 153, 116, 0.08);
+          }
+          .moreTitle {
+            font-size: 14px;
+            color: #4d9974;
+            line-height: 25px;
+          }
+          .favourNext {
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+     
+      .imgs {
+        width: 100%;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    }
+}

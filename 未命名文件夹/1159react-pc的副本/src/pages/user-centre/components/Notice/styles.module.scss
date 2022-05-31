@@ -1,0 +1,24 @@
+.TopCard {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    padding: 20px!important;
+}
+.title {
+    text-align: left;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.remark {
+    text-align: left;
+    font-size: 14px!important;
+     margin: 20px 0 16px 0;
+
+}
+.iconBox {
+    display: flex;
+    align-items: center;
+    img {
+        cursor: pointer;
+        margin-left: 5px;
+    }
+}

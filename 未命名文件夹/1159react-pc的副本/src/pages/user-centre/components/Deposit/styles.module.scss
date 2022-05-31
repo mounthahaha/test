@@ -1,0 +1,213 @@
+
+.payConfirmBtn {   
+    text-align: center;  
+    padding-bottom: 20px;   
+    span {
+        cursor: pointer;
+        display: inline-block;
+        background-color: rgb(7, 175, 76);
+        border-color: rgb(7, 175, 76);
+        line-height: 36px;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 4px;
+        width: 220px;
+    }
+}
+.depositWrap {
+    margin: 0px auto 5px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    .wrapContent {
+        width: 680px;
+        .contentHeader {
+            background-color: #fff;            
+            border-radius: 2px;
+            padding: 20px;
+            color: #333;
+            .headerTitle {
+               font-size: 18px;               
+            }
+            .payInfoBox {
+                margin-top: 16px;
+                display: flex;
+                justify-content: space-between;                
+                font-size: 16px;
+                .payCourse {
+                    cursor: pointer;
+                    color: #4d9974;
+                }
+            }
+            .payTypes {
+                margin-top: 20px;
+                .typesItem {
+                    cursor: pointer;
+                    display: inline-block;
+                    text-align: center;
+                    border: 2px solid #0bab5e;                    
+                    color: #0bab5e;
+                    min-width: 116px;
+                    padding: 10px 0;
+                    border-radius: 6px;
+                    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAnUExURUdwTAyrYAyrXwyrXgysXgurXv///+758zG4d0K+gp7dv6nhxojWsJkLqq4AAAAFdFJOUwCANsyaeEHLsAAAANFJREFUOMt90rENwjAQQNEwBD0jUDAJ8CUUUZsiPRIDICZghTBBJCZgLkh3Z5Pv9uvpbOu6zs5Ka7d2jGMc4xjHOMYxjnGMYxzjGMc4xjGOcYxjHOMYxzjGMY5xjGMc4xjHOMYxS/g0tTngx9DmgK+Xe50jLrdGJ/ys8x9MxucpYzL+DBmTJ49lSpg8uS9DwlTXnnnAVNeeecDUbx7LO2DqN/elBEzzYWMJmObD+ohpl+T1rHNaklOzLfWG5bxarAfHR8XsFbNVzEbxXvFB8e5Xv2lgLAsfzPQQAAAAAElFTkSuQmCC) right bottom/20px 20px no-repeat;
+                }
+            }
+        }
+        .payTypesBox {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;            
+            .title {
+                color: #333;
+                font-size: 16px;
+            }
+            .typesBox {
+                width: 100%;
+                display: flex;
+                margin-top: 8px;
+                flex-wrap: wrap;
+                .typeItem {
+                    margin-top: 8px;
+                    margin-right: 12px;
+                    border: 2px solid #e5e5e5;
+                    min-width: 106px;
+                    padding: 7px 0;
+                    border-radius: 6px;
+                    color: #666;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: rgba(100, 100, 100, 0.1);
+                    }
+                    &.active {
+                        border-color: rgb(11, 171, 94);
+                        color: #0bab5e;
+                        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAnUExURUdwTAyrYAyrXwyrXgysXgurXv///+758zG4d0K+gp7dv6nhxojWsJkLqq4AAAAFdFJOUwCANsyaeEHLsAAAANFJREFUOMt90rENwjAQQNEwBD0jUDAJ8CUUUZsiPRIDICZghTBBJCZgLkh3Z5Pv9uvpbOu6zs5Ka7d2jGMc4xjHOMYxjnGMYxzjGMc4xjGOcYxjHOMYxzjGMY5xjGMc4xjHOMYxS/g0tTngx9DmgK+Xe50jLrdGJ/ys8x9MxucpYzL+DBmTJ49lSpg8uS9DwlTXnnnAVNeeecDUbx7LO2DqN/elBEzzYWMJmObD+ohpl+T1rHNaklOzLfWG5bxarAfHR8XsFbNVzEbxXvFB8e5Xv2lgLAsfzPQQAAAAAElFTkSuQmCC) right bottom/20px 20px no-repeat;
+                        &:hover {
+                            background-color: rgba(11, 171, 94, 0.1);
+                        }
+                        .itemTitle {
+                            color: #0bab5e;
+                        }
+                    }
+                    img {
+                        width: 30px;
+                    }
+                    .itemTitle {
+                        margin-top: 2px;
+                        color: #666;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .payInputWrap {
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            .tipInfo {
+                color: #4a6658;
+                background: #ebf5f0;
+                margin: -3px -20px 0;
+                font-size: 10px;
+                text-align: center;
+                line-height: 35px;
+                img {
+                    width: 15px;
+                    margin-right: 5px;
+                }
+            }
+            .inputBox {
+                margin-top: 20px;
+                color: #656565;
+                font-size: 14px;
+                .input {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 12px;
+                    .inputTips {
+                        margin-left: 5px;
+                        color: rgba(0, 0, 0, 0.6);;
+                    }
+                }
+            }
+            .exchangeBox {
+                font-size: 14px;
+                color: #656565;
+                margin-top: 20px;
+                .exchangeItem {
+                    margin-top: 16px;
+                    &.num {
+                        color: rgba(0, 0, 0, 0.87);
+                    }
+                }
+            }
+            .presetsBox {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                .presetsItem {
+                    text-align: center;
+                    cursor: pointer;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                    border: 2px solid #e5e5e5;
+                    min-width: 106px;
+                    padding: 7px 0;
+                    border-radius: 6px;
+                    color: #666;
+                    &:hover {
+                        background-color: rgba(100, 100, 100, 0.1);
+                    }
+                    &.active {
+                        border-color: #0bab5e;
+                        color: #0bab5e;
+                        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAnUExURUdwTAyrYAyrXwyrXgysXgurXv///+758zG4d0K+gp7dv6nhxojWsJkLqq4AAAAFdFJOUwCANsyaeEHLsAAAANFJREFUOMt90rENwjAQQNEwBD0jUDAJ8CUUUZsiPRIDICZghTBBJCZgLkh3Z5Pv9uvpbOu6zs5Ka7d2jGMc4xjHOMYxjnGMYxzjGMc4xjGOcYxjHOMYxzjGMY5xjGMc4xjHOMYxS/g0tTngx9DmgK+Xe50jLrdGJ/ys8x9MxucpYzL+DBmTJ49lSpg8uS9DwlTXnnnAVNeeecDUbx7LO2DqN/elBEzzYWMJmObD+ohpl+T1rHNaklOzLfWG5bxarAfHR8XsFbNVzEbxXvFB8e5Xv2lgLAsfzPQQAAAAAElFTkSuQmCC) right bottom/20px 20px no-repeat;
+                    }
+                }
+            }
+            .payChannels {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                .channelBox {
+                    color: #fff;
+                    background: linear-gradient(90deg, #29c169 0%, #7edc99 100%);
+                    min-width: 196px;
+                    margin-right: 10px;
+                    min-height: 60px;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    cursor: pointer;
+                    text-align: center;
+                    &.disabled {
+                        background: #ededed;
+                        background-color: rgba(0, 0, 0, 0.12);
+                        color: rgba(0, 0, 0, 0.26);
+                        cursor: not-allowed;
+                        &:hover {
+                            background: rgba(0, 0, 0, 0.12);
+                        }
+                    }
+                    &:hover {
+                        background: linear-gradient(90deg, #26b461 0%, #78d191 100%);
+                    }
+                    span {
+                        display: inline-block;
+                        max-width: 300px;
+                        word-wrap:break-word;
+                    }
+                }
+
+            }
+        }
+    }   
+}

@@ -1,0 +1,61 @@
+.helpCentre {
+    background-color: #cecece;
+}
+.helpCentreWrap {
+    display: flex;
+    width: 1185px;
+    margin: 0 auto;
+    .wLeft {        
+        flex: 0 0 25%;                
+        padding: 12px;
+        .leftList {
+            min-height: 200px;
+            border-radius: 4px;
+            box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+            background-color: #fff;
+            padding: 12px;
+            .listItem {
+                color: rgba(0, 0, 0, 0.87);                
+                font-size: 16px;          
+                height: 52px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgba(112, 110, 110, 0.068);
+                }
+                .itemIcon {
+                    display: inline-block;
+                    margin: 0 32px 0 24px;
+                    font-size: 18px;
+                    color: #4d9974;
+                }
+            }
+        }        
+    }
+    .wRight {
+        flex: 0 0 75%;
+        padding: 12px;
+        .rightContent {                       
+            background-color: #fff;
+            box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+            border-radius: 4px;
+            color: rgba(0, 0, 0, 0.87);
+            padding: 12px;
+            .cHeader {
+                padding: 16px 16px 0;
+            }
+            .cTitle {           
+                padding-bottom: 16px;     
+                color:#4d9974;
+                font-size: 28px;
+                font-weight: 600;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            }
+            .cContent {
+                min-height: 200px;
+                padding: 20px;
+            }
+        }
+    }
+}

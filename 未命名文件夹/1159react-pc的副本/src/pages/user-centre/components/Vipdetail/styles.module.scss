@@ -1,0 +1,190 @@
+.vipDetailWarp {
+  background-color: #fff;
+  .pageTitleV {
+    padding: 20px;
+    .titleV {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      .backImgV {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        .backImg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .title {
+        font-size: 16px;
+        margin-left: 5px;
+      }
+    }
+    .carItemV {
+      width: 928px;      
+      padding-top: 12px;
+      position: relative;
+      .swipItem {
+        background: linear-gradient(270deg, #989c99, #d2d7d3);
+        box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+        border-radius: 7px;
+        padding: 15px 20px;
+        width: 360px;
+        padding: 20px;
+        color: #fff;
+        .vip {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .vipLevel {
+            font-size: 25px;
+            padding-top: 5px;
+          }
+          .vipLevelImgV {
+            .vipLevelImg {
+              width: 80px;
+            }
+          }
+        }
+        .conditionsNumV {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 20px;
+          .conditionsItemV {
+            .conditionsNumber {
+            }
+            .conditionsTitle {
+            }
+          }
+        }
+      }
+    }
+  }
+  .botmV {
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin-top: 20px;
+    .welfareV {
+      background-color: #fff;
+      padding: 20px;
+      .welfareTitle {
+        font-size: 20px;
+        color: #4d9974;
+        text-align: center;
+      }
+      .welfareDeTitle {
+        text-align: left;
+        color: #666;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 15px 0 10px;
+      }
+      .welfareMes {
+        color: #666;
+        font-size: 12px;
+        margin-bottom: 0;
+        text-align: left;
+      }
+    }
+
+    .backRateV {
+      background-color: #fff;
+      .backTitle {
+        display: flex;
+        flex-direction: row;
+        padding: 0 20px;
+        .backLine {
+          width: 5px;
+          height: 20px;
+          background-color: #4d9974;
+          margin-right: 20px;
+          margin-top: 2px;
+        }
+        .backRateTitle {
+          color: #6e7da9;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+      .tableBgV {
+        font-size: 12px;
+        .titles {
+          color: #4d9974;
+        }
+        th {
+          width: 160px;
+          line-height: 44px;
+        }
+        td {
+          width: 160px;
+          line-height: 44px;
+          text-align: center;
+        }
+        tr{
+          display: flex;
+        }
+        .strong {
+          font-weight: bold;
+          color: #4d9974;
+        }
+
+        thead {
+          tr {
+            background-color: #eef0ed;
+          }
+        }
+        table {
+            border-collapse:separate;
+            border-spacing:10px 3px;
+        }
+        tbody {
+          tr {
+            background-color: #fff;
+            &:hover {
+              background-color: #eee !important;
+            }
+          }
+          td {
+            margin: 3px;
+            tab-size: 4;
+            color: #666;
+          }
+
+          tr:nth-child(odd) {
+            td {
+              background: #f9f9f9;
+            }
+            td:first-child {
+              background: #eef0ed;
+            }
+          }
+          tr:nth-child(2n) {
+            td {
+              background: #eef0ed;
+            }
+
+            td:first-child {
+              background: #f9f9f9;
+            }
+          }
+        }
+      }
+      .ruleV {
+        padding: 20px;
+        .ruleTitle {
+          text-align: left;
+          font-size: 15px;
+          line-height: 50px;
+          color: #6e7da9;
+        }
+        li {
+          text-align: left;
+          font-size: 12px;
+          color: #666;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

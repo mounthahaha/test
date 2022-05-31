@@ -1,0 +1,20 @@
+// 992 + 16 , 1280 + 16
+//$grid-breakpoints: (
+//  'xs': 0,
+//  'sm': 576px,
+//  'md': 768px,
+//  'lg': 1008px - 16px,
+//  'xl': 1296px - 16px
+//);
+//$container-max-widths: (
+//    'md': map-get($grid-breakpoints, 'md'),
+//    'lg': map-get($grid-breakpoints, 'md'),
+//    'xl': map-get($grid-breakpoints, 'lg')
+//) !default;
+// The variables you want to modify
+// $font-size-root: 14px;
+// $btn-border-radius: 0px;
+
+@import './colors.scss';
+//@import '~vuetify/src/stylus/settings/_variables.styl';
+

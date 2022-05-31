@@ -1,0 +1,29 @@
+.promotionWrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 50px 8%;
+    .itemBgV {
+        width: 1500px;
+        box-shadow: 0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12)!important;
+        border-radius: 20px;
+        padding: 20px;
+        .title{
+            font-size: 30px;
+            // font-weight: bold;
+            text-align: center;
+        }
+        .conMesV{
+            text-align: center;
+            .activeTitle{
+                color: #6e7da9;
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .activeDesc{
+                color: #6e7da9;
+                font-size: 16px;
+            }
+        }
+    }
+}
